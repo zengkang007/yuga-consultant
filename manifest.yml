@@ -1,0 +1,10 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: yuga-consultant
+  host: yuga-consultant
+  disk_quota: 1024M
+  services:
+  - yuga-consultant-cloudantNoSQLDB
